@@ -17,11 +17,15 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 1rem 2rem;
+  cursor: pointer;
 }
+
+/* navigation style  */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 5%;
 }
 .nav-title {
   color: #181818;
@@ -39,4 +43,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* --------Header Style-------- */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 1.9rem 1.9rem 1.9rem 8.6rem;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 30.8rem;
 }
