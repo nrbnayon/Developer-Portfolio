@@ -61,9 +61,10 @@ nav a {
 /* --------Header Style-------- */
 .header {
   background-color: #fff8f3;
-  background-image: url(../images/header_bg.png);
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, bottom left;
   margin-bottom: 0;
 }
 .banner {
@@ -126,6 +127,7 @@ main {
   margin-top: 0;
   color: #474747;
   font-weight: 700;
+  text-align: center;
 }
 .skill-description {
   color: #757575;
